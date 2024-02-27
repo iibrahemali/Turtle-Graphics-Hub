@@ -81,4 +81,4 @@ t.forward(50)
 
 t.end_fill()
 t.penup()
-turtle.d
+turtle.exitonclick()
