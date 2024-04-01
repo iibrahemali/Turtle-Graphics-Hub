@@ -1,14 +1,12 @@
 import turtle
 from time import sleep
 
-# Part 1 : Initialize the module
 t = turtle.Turtle()
 t.speed(4)
-turtle.bgcolor("white")
-t.color("white")
+turtle.bgcolor("black")
+t.color("black")
 turtle.title('Netflix Logo')
 
-# Part 2 : Drawing the black background
 t.up()
 t.goto(-80, 50)
 t.down()

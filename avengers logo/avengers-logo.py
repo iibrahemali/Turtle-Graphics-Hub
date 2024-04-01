@@ -54,7 +54,6 @@ def draw_A(pen):
 
 
 def draw_triangle(pen):
-    # Triangle shape in ‘A’ to make it look like 2d
     pen.pensize(10)
     pen.setposition(53, -40)
     pen.pendown()
@@ -98,6 +97,5 @@ if __name__ == '__main__':
     avengers.setposition(300,300)
     avengers.pencolor("red")
 
-    avengers.write("ibra-heem")
     avengers.hideturtle()
     turtle.done()

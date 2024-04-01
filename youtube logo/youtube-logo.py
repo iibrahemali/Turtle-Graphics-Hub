@@ -9,7 +9,7 @@ t.left(180)
 t.right(3)
 t.pendown()
 
-t.Screen().bgcolor('yellow')
+t.Screen().bgcolor('white')
 
 for i in  range(10):
     t.forward(30)
@@ -84,4 +84,5 @@ for i in range(3):
     t.left(120)
 
 t.end_fill()
-t.done()
+t.hideturtle()
+t.exitonclick()

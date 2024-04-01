@@ -129,5 +129,7 @@ t.right(90)
 t.forward(60)
 t.right(90)
 t.forward(32.5)
+t.hideturtle()
+turtle.exitonclick()
 
 turtle.done()

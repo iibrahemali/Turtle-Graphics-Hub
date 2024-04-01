@@ -1,7 +1,7 @@
 import turtle as t
 
 t.begin_fill()
-t.Screen().bgcolor('Gray')
+t.Screen().bgcolor('white')
 t.fillcolor('black')
 t.left(134)
 
